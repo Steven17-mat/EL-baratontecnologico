@@ -1,0 +1,111 @@
+body {
+    background-color: #0000FF;
+    color: white;
+    font-family: "Orbitron";
+    src: url("Orbitron.zip");
+    text-align: center;
+    background: -webkit-linear-gradient(top, #0907b6 50%, #080a68 90%);
+}
+
+header {
+    background-color: #21098b;
+    border: 4px outset #21098b;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: -webkit-radial-gradient(center, ellipse,#0c44ad,#1a0674);
+}
+.logo img {
+    width: 130px;
+    margin-right: 100px;
+    border-radius: 10px;
+}
+
+h1 {
+    flex-grow: 1;
+    text-align: center;
+    margin: 0;
+    font-size: 40px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: #2407a1;
+}
+nav ul li a:hover {
+    transform: scale(1.1); 
+    box-shadow: 0px 12px 25px rgba(0, 0, 0, 0.6);
+}
+.services {
+    margin: 20px;
+}
+
+.service {
+    background-color: #000099;
+    border: 2px dashed white;
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    border-radius: 10px;
+}
+.service:hover {
+    transform: scale(1.1); 
+    box-shadow: 0px 12px 25px rgba(0, 0, 0, 0.6);
+}
+.service h2 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.content img {
+    width: 200px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.content ul {
+    text-align: left;
+    list-style: none;
+    padding: 0;
+}
+
+.content ul li {
+    font-size: 1.2em;
+    margin: 5px 0;
+}
+footer {
+        margin-top: 30px;
+        font-size: 28px;
+        font-weight: bold;
+}
